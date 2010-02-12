@@ -60,12 +60,14 @@
     <Compile Include="domain\Subdepartment.cs" />
     <Compile Include="utility\Mapper.cs" />
     <Compile Include="utility\MapperRegistry.cs" />
+    <Compile Include="web\application\AddToCart.cs" />
     <Compile Include="web\application\DepartmentMapper.cs" />
     <Compile Include="web\application\ViewMainDepartments.cs" />
     <Compile Include="web\application\ViewProducts.cs" />
     <Compile Include="web\application\ViewSubDepartments.cs" />
     <Compile Include="web\core\ApplicationCommand.cs" />
     <Compile Include="web\core\DefaultRoutedCommand.cs" />
+    <Compile Include="web\core\Cart.cs" />
     <Compile Include="web\core\RawHandler.cs" />
     <Compile Include="web\core\ReponseEngine.cs" />
     <Compile Include="web\core\RequestFactory.cs" />
